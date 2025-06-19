@@ -21,8 +21,9 @@ except FileNotFoundError:
 # --- Load model metrics ---
 model_metrics = "Metrics not available"
 if os.path.exists(metrics_path):
-    with open(metrics_path, "r") as f:
+    with open(metrics_path, "r", encoding="utf-8") as f:
         model_metrics = f.read()
+
 
 # --- Page Config ---
 st.set_page_config(page_title="Wind Speed Predictor", layout="wide")
