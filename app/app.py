@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 import os
 
 # --- Load Trained Model ---
-model_path = "D:/Python/ADRDE_Project/model/wind_speed_model.pkl"
-metrics_path = "D:/Python/ADRDE_Project/model/metrics.txt"
+model_path = "model/wind_speed_model.pkl"
+metrics_path = "model/metrics.txt"
 
 # --- Try loading model ---
 try:
