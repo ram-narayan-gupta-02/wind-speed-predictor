@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 import os
 
 # --- Load Trained Model ---
-model_path = "model/wind_speed_model.pkl"
-metrics_path = "model/metrics.txt"
+model_path = "D:/Python/ADRDE_Project/model/wind_speed_model.pkl"
+metrics_path = "D:/Python/ADRDE_Project/model/metrics.txt"
 
 # --- Try loading model ---
 try:
@@ -44,6 +44,49 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+st.markdown(
+    """
+    <style>
+    .drdo-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        gap: 20px;
+    }
+
+    .drdo-header img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    .drdo-title {
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+        text-align: left;
+    }
+
+    @media (max-width: 768px) {
+        .drdo-header {
+            flex-direction: column;
+        }
+        .drdo-title {
+            text-align: center;
+        }
+    }
+    </style>
+
+    <div class="drdo-header">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Defence_Research_and_Development_Organisation.svg/1200px-Defence_Research_and_Development_Organisation.svg.png" alt="DRDO Logo">
+        <div class="drdo-title">Aerial Delivery Research and Development Establishment<br>(DRDO)</div>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 
 # --- Title with Logo ---
 st.markdown("""
