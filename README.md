@@ -83,7 +83,7 @@ cd wind-speed-predictor
 pip install -r requirements.txt
 python model/train_model.py    # Optional if model already trained
 streamlit run app/app.py
-
+```
 ---
 
 ## 📜 License
