@@ -62,11 +62,11 @@ Website version:
 
 wind-speed-predictor/ 
 ├── app/ 
-│   └── app.py               # Streamlit frontend 
+│   └── app.py         # Streamlit frontend 
 ├── model/ 
-│   ├── train_model.py       # ML model training script 
-│   ├── wind_speed_model.pkl # Saved model 
-│   └── metrics.txt          # Model evaluation metrics 
+    └── train_model.py # ML model training script 
+    └── wind_speed_model.pkl # Saved model 
+    └── metrics.txt    # Model evaluation metrics 
 ├── wind_data_combined_2016_2025.csv 
 ├── requirements.txt 
 └── README.md
