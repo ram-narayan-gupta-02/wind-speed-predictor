@@ -27,13 +27,14 @@ To build a machine learning model that can:
 
 ## 🧠 Machine Learning Approach
 
-- Model: **Random Forest Regressor**
+- Model: **XGBoost**
 - Input Features: Past 3-day wind speeds (lag values)
 - Target: Wind speed calculated using  
   `wind_speed = √(uwnd² + vwnd²)`
 - Performance:
-  - **MSE (Mean Squared Error)**: ~14.71
-  - **R² Score**: ~0.015 (baseline)
+  - **MSE (Mean Squared Error)**: ~0.0804
+  - **R² Score**: ~0.9947 (baseline)
+  - **MAE (Mean Absolute Error)**: ~0.0890
 
 ---
 
