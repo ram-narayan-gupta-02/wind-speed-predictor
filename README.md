@@ -60,16 +60,19 @@ Website version:
 
 ## 📁 Folder Structure
 
-wind-speed-predictor/ 
-├── app/ 
-│   └── app.py         # Streamlit frontend 
-├── model/ 
-    └── train_model.py # ML model training script 
-    └── wind_speed_model.pkl # Saved model 
-    └── metrics.txt    # Model evaluation metrics 
-├── wind_data_combined_2016_2025.csv 
-├── requirements.txt 
-└── README.md
+wind-speed-predictor/
+│
+├── app/                            # Streamlit application
+│   └── app.py                      # Main web app interface
+│
+├── model/                          # Model training and output
+│   ├── train_model.py              # ML model training script
+│   ├── wind_speed_model.pkl        # Trained model file (saved by joblib)
+│   └── metrics.txt                 # Model evaluation (MSE, R²)
+│
+├── wind_data_combined_2016_2025.csv   # Combined historical NOAA wind data
+├── requirements.txt               # Python dependencies
+└── README.md                      # Project documentation
 
 ---
 
