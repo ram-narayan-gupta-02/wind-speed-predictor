@@ -1,5 +1,7 @@
 # 🌬️ Wind Speed Prediction using Machine Learning (ADRDE – DRDO Project)
 
+![Wind Speed Model](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo7vxmFRAerrTFHZ-VWk8PJpYQ5q9lTdL9dg&s)
+
 This AI-powered project predicts wind speed in the **altitude range of 0–22 km** using **NOAA atmospheric data (2016–2025)**. Developed as part of a final-year engineering project at **RBS Engineering Technical Campus, Agra**, the model serves critical applications in **aerospace, missile technology, and atmospheric research** under the supervision of **ADRDE – DRDO**.
 
 ---
