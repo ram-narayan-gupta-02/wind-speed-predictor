@@ -83,3 +83,19 @@ cd wind-speed-predictor
 pip install -r requirements.txt
 python model/train_model.py    # Optional if model already trained
 streamlit run app/app.py
+
+---
+
+## 📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## 🤝 Contributing
+Feel free to contribute by submitting a pull request or reporting issues!
+
+---
+
+## 📩 Contact
+📧 Email: [ramnrngupta@gmail.com](mailto:ramnrngupta@gmail.com)
+📌 GitHub: [ram-narayan-gupta-02](https://github.com/ram-narayan-gupta-02)
