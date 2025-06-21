@@ -59,7 +59,7 @@ Website version:
 ---
 
 ## 📁 Folder Structure
-
+```
 wind-speed-predictor/
 ├── app/                           # Streamlit application
 │   └── app.py                     # Main web app interface
@@ -72,7 +72,7 @@ wind-speed-predictor/
 ├── wind_data_combined_2016_2025.csv   # NOAA historical wind data (2016–2025)
 ├── requirements.txt              # List of Python dependencies
 └── README.md                     # Project documentation
-
+```
 ---
 
 ## 🧪 How to Run Locally
